@@ -24,7 +24,6 @@
 
   body {
     background: var(--background-body);
-
     color: var(--primary);
     font: 400 16px "Inter", sans-serif;
   }
@@ -44,7 +43,7 @@
 
 .card {
     border-radius: 12px;
-    background: var (--background-card);
+    background: var(--background-card);
     box-shadow: var(--shadow-card);
 }
 
