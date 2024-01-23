@@ -6,7 +6,7 @@ export function Header() {
     return ( 
         <header className={styles.header}>
             <div>
-                <img src= { logoGabriel } alt="Logotipo Gabriel" />
+                <img src= { logoGabriel } alt="Logotipo Gabriel"/>
             </div>
 
             <div>
@@ -17,10 +17,7 @@ export function Header() {
                 <a href="#">Carreira</a>
                 <a href="#">Contato</a>
             </div>
-            
-            <div>
                 <button>Baixar CV</button>
-            </div>
         </header>
     )
 }

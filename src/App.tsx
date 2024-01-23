@@ -1,5 +1,5 @@
 import { Header } from './components/Header';
-// import { About } from './components/About';
+import { About } from './components/About';
 // import { Skills } from './components/Skills';
 // import { Projects } from './components/Projects';
 // import { Experience } from './components/Experience';
@@ -15,11 +15,8 @@ export function App() {
     return(
       <div>
           <Header />
-  
+          <About />
           <div className={styles.wrapper}>
-            <main>
-                <p>Hello World</p>
-            </main>
           </div>
       </div>
     ) 
