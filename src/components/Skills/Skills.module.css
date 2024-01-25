@@ -1,0 +1,45 @@
+.skills {
+    background-color: var(--gray);
+    width: 100%;
+    color: var(--blue);
+    font-weight: bold;
+    padding-bottom: 5rem;
+}
+.skills button {
+    padding: 12px;
+    background-color: var(--green);
+    border: none;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    font-weight: bold;
+    color: var(--blue);
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+    margin-top: 1.5rem;
+}
+
+.skills button:hover {
+    background: var(--white);
+}
+
+.skills button > span {
+    margin-left: 5px;
+    margin-top: 1px;
+}
+
+.skills h1 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.skills p {
+    margin-bottom: 2rem;
+}
+
+.skills img {
+    width: 60px;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}

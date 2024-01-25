@@ -1,0 +1,48 @@
+.about {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.about img {
+    width: 320px;
+    margin-right: 6rem;
+}
+
+.about button {
+    padding: 12px;
+    background-color: var(--green);
+    border: none;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    font-weight: bold;
+    color: var(--blue);
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+    margin-right: 12.5rem;
+}
+
+.about button:hover {
+    background: var(--gray);
+}
+
+.about button > span {
+    margin-left: 5px;
+}
+
+
+.about h1 {
+    color: var(--blue);
+    text-align: start;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.about p {
+    color: var(--black);
+    max-width:600px;
+    text-align: start;
+    margin-top: 1rem;
+}
