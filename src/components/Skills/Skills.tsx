@@ -19,7 +19,7 @@ export function Skills() {
             </div>
 
             <h1>Tecnologias e Habilidades</h1>
-            <p>Conhecimentos</p>
+            <h2>Conhecimentos</h2>
             <div>
                 <img src= { react } alt="React"/>
                 <img src= { javascript } alt="Javascript"/>

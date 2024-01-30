@@ -1,0 +1,62 @@
+.experience {
+    background-color: var(--gray);
+    width: 100%;
+    color: var(--blue);
+}
+
+.expTemplate {
+    display: flex;
+    gap: 2rem;
+}
+
+.experience button {
+    padding: 12px;
+    background-color: var(--green);
+    border: none;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    font-weight: bold;
+    color: var(--blue);
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.experience button:hover {
+    background: var(--white);
+}
+
+.experience button > span {
+    margin-left: 5px;
+    margin-top: 1px;
+}
+
+.experience ul > li {
+    border: 1px solid var(--blue);
+    border-radius: 10px;
+    list-style: none;
+    width: 500px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.experience h2 {
+    margin: 2rem 0 2rem 0;
+    font-weight: bold;
+}
+
+.experience h4 {
+    font-size: 1.5rem;
+    margin: 1rem 0 2rem 0;
+    font-weight: 500;
+}
+
+.experience h5 {
+    margin-top: 1rem;
+    text-align: end;
+}
+
+.experience p {
+    color: var(--black)
+}
