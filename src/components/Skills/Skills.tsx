@@ -25,7 +25,6 @@ export function Skills() {
                 <img src= { javascript } alt="Javascript"/>
                 <img src= { laravel } alt="Laravel"/>
                 <img src= { php } alt="PHP"/>
-
             </div>
             <div>
                 <img src= { typescript } alt="Typescript"/>

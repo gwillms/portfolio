@@ -3,7 +3,6 @@
     width: 100%;
     color: var(--blue);
     font-weight: bold;
-    padding: auto;
     display: inline-block;
 }
 .skills button {
@@ -36,11 +35,18 @@
 }
 
 .skills h2 {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .skills img {
     width: 60px;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
     margin-bottom: 2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.skills img:hover {
+    border-radius: 10%;
+    transform: scale(1.1);
 }

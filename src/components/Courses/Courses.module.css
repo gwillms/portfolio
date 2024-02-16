@@ -1,0 +1,79 @@
+.courses {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.courses button {
+    padding: 12px;
+    background-color: var(--green);
+    border: none;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    font-weight: bold;
+    color: var(--blue);
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.courses button:hover {
+    background: var(--gray);
+}
+
+.courses button > span {
+    margin-left: 5px;
+}
+
+.courses h1 {
+    color: var(--blue);
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.courses ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    align-items: auto;
+    margin-bottom: 2rem;
+}
+
+.courses ul > li {
+    border: 1px solid var(--blue);
+    border-radius: 10px;
+    list-style: none;
+    width: 200px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: var(--gray);
+    transition-duration: 0.6s;
+}
+
+.courses ul > li:hover {
+    background-color: var(--green);
+    box-shadow: rgb(7, 1, 61) 0px 6px 16px;
+    border-radius: 10%;
+    transform: translateX(0.2rem);
+}
+
+.courses h4 {
+    font-size: 1rem;
+    margin: 1rem 0 2rem 0;
+    font-weight: bold;
+    color: var(--blue);
+}
+
+.courses a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: var(--black);
+}
+
+.courses a:hover {
+    border-bottom: 2px solid;
+    box-sizing: border-box;
+    color: var(--blue)
+}

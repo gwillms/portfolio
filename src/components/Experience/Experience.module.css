@@ -2,11 +2,14 @@
     background-color: var(--gray);
     width: 100%;
     color: var(--blue);
+    text-align: center;
 }
 
 .expTemplate {
     display: flex;
     gap: 2rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .experience button {
@@ -37,8 +40,10 @@
     border-radius: 10px;
     list-style: none;
     width: 500px;
+    height: 220px;
     margin-bottom: 2rem;
     padding: 1rem;
+    background-color: var(--white);
 }
 
 .experience h2 {
@@ -54,9 +59,8 @@
 
 .experience h5 {
     margin-top: 1rem;
-    text-align: end;
 }
 
 .experience p {
-    color: var(--black)
+    color: var(--black);
 }
