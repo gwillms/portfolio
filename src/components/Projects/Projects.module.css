@@ -1,43 +1,23 @@
-.projects button {
-    padding: 12px;
-    background-color: var(--green);
-    border: none;
-    border-radius: 10px;
-    transition-duration: 0.4s;
-    font-weight: bold;
-    color: var(--blue);
-    display: inline-flex;
-    align-items: center;
-    vertical-align: middle;
-    margin-left: 1rem;
-}
-
-.projects button:hover {
-    background: var(--gray);
-}
-
-.projects button > span {
-    margin-left: 5px;
-}
-
-.projects h1 {
-    color: var(--blue);
-    font-size: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+.projects {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
 }
 
 .projects ul {
     display: flex;
-    margin-bottom: 2rem;
     gap: 2rem;
-    max-width: 1400px;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
 }
 
 .projects ul > li {
     border: 1px solid var(--blue);
     border-radius: 10px;
     list-style: none;
+    background-color: var(--white);
 }
 
 .projects h3 {
@@ -52,7 +32,31 @@
     justify-content: center;
 }
 
+.projects button {
+    padding: 12px;
+    background-color: var(--green);
+    border: none;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    font-weight: bold;
+    color: var(--blue);
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.projects button:hover {
+    background: var(--gray);
+}
+
+.projects button > span {
+    margin-left: 5px;
+}
+
 .projects img {
     width: 400px;
     margin-top: 1rem;
 }
+

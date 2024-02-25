@@ -9,8 +9,7 @@ export function Projects() {
 
         <section className={styles.projects}>
             <div>
-                <button><Link size={21} color="#4831d4" /><span>Portfólio</span></button>
-                <h1>Projetos</h1>
+                <button><Link size={21} color="#4831d4" /><span>Projetos</span></button>
                 
                 <ul>
                     <li>
@@ -40,9 +39,6 @@ export function Projects() {
                             <a href="https://github.com/gwillms/nlw-copa" target="_blank"><img src={ nlwCopa } alt="" /></a>
                     </li>
                 </ul>
-            </div>
-            <div>
-
             </div>
         </section>
     )

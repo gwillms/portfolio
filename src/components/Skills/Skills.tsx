@@ -14,12 +14,13 @@ import postgresqp from '../../assets/postgresql.svg';
 export function Skills() {
     return (
         <section className={styles.skills}>
+            <div className={styles.divider}>
+            </div>
             <div>
                 <button><Laptop size={21} color="#4831d4" /><span>Skills</span></button>
             </div>
 
             <h1>Tecnologias e Habilidades</h1>
-            <h2>Conhecimentos</h2>
             <div>
                 <img src= { react } alt="React"/>
                 <img src= { javascript } alt="Javascript"/>
@@ -31,6 +32,8 @@ export function Skills() {
                 <img src= { html } alt="HTML"/>
                 <img src= { css } alt="CSS"/>
                 <img src= { postgresqp } alt="PostgreSQL"/>
+            </div>
+            <div className={styles.divider}>
             </div>
         </section>
     )

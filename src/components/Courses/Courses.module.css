@@ -15,6 +15,7 @@
     display: inline-flex;
     align-items: center;
     vertical-align: middle;
+    margin-top: 3rem;
 }
 
 .courses button:hover {
@@ -25,20 +26,13 @@
     margin-left: 5px;
 }
 
-.courses h1 {
-    color: var(--blue);
-    font-size: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
 .courses ul {
     display: flex;
     justify-content: center;
     text-align: center;
-    gap: 10px;
+    gap: 2rem;
     align-items: auto;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .courses ul > li {
@@ -46,17 +40,22 @@
     border-radius: 10px;
     list-style: none;
     width: 200px;
-    margin-bottom: 2rem;
     padding: 1rem;
     background-color: var(--gray);
-    transition-duration: 0.6s;
+    transition: all 0.3s ease-in-out;
+}
+
+.redesSociais a {
+    margin-left: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.redesSociais a:hover {
+    transform: scale(1.1);
 }
 
 .courses ul > li:hover {
-    background-color: var(--green);
-    box-shadow: rgb(7, 1, 61) 0px 6px 16px;
-    border-radius: 10%;
-    transform: translateX(0.2rem);
+    transform: scale(1.05);
 }
 
 .courses h4 {
@@ -76,4 +75,14 @@
     border-bottom: 2px solid;
     box-sizing: border-box;
     color: var(--blue)
+}
+
+.divider {
+    height: 2px;
+    width: 60%;
+    background: linear-gradient(90deg, var(--black), var(--blue));
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+    margin-top: 3rem;
 }

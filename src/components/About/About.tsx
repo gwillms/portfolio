@@ -12,7 +12,6 @@ export function About() {
                 <div>
                     <button><Cookie size={20} color="#4831d4"/><span>Sobre mim</span> </button>
                     <h1>Gabriel de Oliveira Willms</h1>
-                    <p>Olá, me chamo Gabriel, tenho 31 anos!</p>
                     <p>
                     Formado em Análise e Desenvolvimento de Sistemas, minha jornada profissional é uma busca constante 
                     por desafios que me permitam aplicar e aprimorar minhas habilidades.
@@ -20,7 +19,7 @@ export function About() {
                     <br></br>
                     Atualmente, meu foco está em desenvolvimento 
                     web, e estou dedicando tempo ao estudo contínuo das tecnologias que impulsionam essa área. Tenho aprofundado meus 
-                    conhecimentos em React, JavaScript, PHP e Laravel, buscando integrá-las de maneira eficiente em projetos práticos.
+                    conhecimentos em React, JavaScript, NodeJS, PHP e Laravel, buscando integrá-las de maneira eficiente em projetos práticos.
                     </p>
                 </div>
         </section>

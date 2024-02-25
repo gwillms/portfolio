@@ -4,9 +4,10 @@ import { Code } from 'phosphor-react';
 export function Courses() {
     return (
         <section className={styles.courses}>
+            <div className={styles.divider}>
+            </div>
             <div>
-                <button><Code size={21} color="#4831d4" /><span>Portfólio</span></button>
-                <h1>Certificados</h1>
+                <button><Code size={21} color="#4831d4" /><span>Cursos</span></button>
             </div>
             <div>
                 <ul>
@@ -22,7 +23,11 @@ export function Courses() {
                         <h4>Origamid</h4>
                         <a href="https://www.origamid.com/certificate/2ff35776" target="_blank">HTML E CSS</a>
                     </li>
-                    <li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                <li>
                         <h4>Udemy</h4>
                         <a href="https://www.udemy.com/certificate/UC-4cbe649a-e180-4377-8219-98814571288a/" target="_blank">Linux</a>
                     </li>
@@ -36,6 +41,7 @@ export function Courses() {
                     </li>
                 </ul>
             </div>
+
         </section>
     )
 }

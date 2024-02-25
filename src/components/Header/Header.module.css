@@ -1,18 +1,21 @@
 .header {
-    background-color: var(--black);
-    padding: 1rem;
-    max-width: 100%;
+    background-color: var(--white);
+    padding: 0.5rem;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    text-align: justify;
 }
 
 .menuNav a {
     text-decoration: none;
     font-size: 1rem;
     padding: 15px;
-    color: var(--white);
+    color: var(--blue);
     transition-duration: 0.6s;
+    font-weight: bold;
 }
 
 .menuNav a:hover {
@@ -24,7 +27,7 @@
 .linha {
     border-bottom: 2px solid;
     box-sizing: border-box;
-    color: var(--blue)
+    color: var(--blue);
 }
 
 .redesSociais {
@@ -34,6 +37,11 @@
 
 .redesSociais a {
     margin-left: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.redesSociais a:hover {
+    transform: scale(1.1);
 }
 
 .redesSociais img {
@@ -47,34 +55,22 @@
         margin-left: 2rem;
         border-radius: 5px;
         border: none;
-        background-color: var(--white);
-        box-shadow: 0 0 0 0 var(--white);
-        outline: 2px solid;
-        color: black;
-        outline-color: white;
-        outline-offset: 0px;
+        background-color: var(--blue);
+        box-shadow: 0 0 0 0 var(--blue);
+        color: white;
         text-shadow: none;
         cursor: pointer;
         font-size: 1rem;
         line-height: 2.5rem;
         width: 100px;
-        height: 35px;
+        height: 40px;
         text-decoration: none;
         justify-content: center;
-        transition: all 550ms cubic-bezier(
-            .36, .63, .5, .73
-        );
+        transition: all 550ms;
     }
     
 .buttonCV:hover {
-    box-shadow: 0 0 0 2px var(
-        --white
-    );
-    outline-color: rgba(
-        255, 255, 255, 0
-     );
-     outline-offset: 15px;
-     color: var(--black);
+    transform: scale(1.1);
     }
 
 

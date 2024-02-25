@@ -3,16 +3,16 @@ import gitHub from '../../assets/github.svg';
 import linkedin from '../../assets/linkedin.svg';
 import Curriculo from '../../assets/curriculo.pdf'
 
+
 export function Header() {
     return ( 
-        <header className={styles.header}>
+        <header className={ styles.header }>
 
             <div className={styles.menuNav}>
-              <a href='#' >Home</a>
-              <a href='#' >Sobre</a>
-              <a href='#' >Skills</a>
-              <a href='#' >Portfólio</a>
-              <a href='#' >Carreira</a>
+              <a href='#about' >Home</a>
+              <a href='#skills' >Habilidades</a>
+              <a href='#projects' >Projetos</a>
+              <a href='#courses' >Cursos</a>
             </div>
             
 
