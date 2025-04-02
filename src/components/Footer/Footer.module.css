@@ -1,10 +1,17 @@
 .footer {
+    display: flex;
     background-color: var(--black);
     padding: 1rem;
     max-width: 100%;
-    display: flex;
     align-items: center;
     justify-content: space-around;
     color: var(--white);
     margin-top: 5rem;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        justify-content: center;
+        flex-direction: column;
+    }
 }

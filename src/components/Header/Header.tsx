@@ -8,15 +8,14 @@ export function Header() {
     return ( 
         <header className={ styles.header }>
 
-            <div className={styles.menuNav}>
+            <div className={ styles.menuNav }>
               <a href='#about' >Home</a>
               <a href='#skills' >Habilidades</a>
-              <a href='#projects' >Projetos</a>
+              {/* <a href='#projects' >Projetos</a> */}
               <a href='#courses' >Cursos</a>
             </div>
             
-
-            <div className= {styles.redesSociais}>
+            <div className= { styles.redesSociais }>
               <a 
               href="https://github.com/gwillms" 
               target="_blank" 
@@ -44,9 +43,6 @@ export function Header() {
                 </a>
               </div>
             </div>
-              
-            
-
         </header>
     )
 }

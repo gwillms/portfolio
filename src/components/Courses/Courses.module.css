@@ -1,88 +1,108 @@
 .courses {
-    justify-content: center;
-    text-align: center;
-    width: 100%;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
 }
 
 .courses button {
-    padding: 12px;
-    background-color: var(--green);
-    border: none;
-    border-radius: 10px;
-    transition-duration: 0.4s;
-    font-weight: bold;
-    color: var(--blue);
-    display: inline-flex;
-    align-items: center;
-    vertical-align: middle;
-    margin-top: 3rem;
+  padding: 12px;
+  background-color: var(--green);
+  border: none;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  font-weight: bold;
+  color: var(--blue);
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  margin-top: 3rem;
 }
 
 .courses button:hover {
-    background: var(--gray);
+  background: var(--gray);
 }
 
 .courses button > span {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 
-.courses ul {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    gap: 2rem;
-    align-items: auto;
-    margin-top: 2rem;
+.courseList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 2rem;
+  padding: 0;
+  list-style: none;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.courses ul > li {
-    border: 1px solid var(--blue);
-    border-radius: 10px;
-    list-style: none;
-    width: 200px;
-    padding: 1rem;
-    background-color: var(--gray);
-    transition: all 0.3s ease-in-out;
+
+.courseList li {
+  border: 1px solid var(--blue);
+  border-radius: 10px;
+  width: 200px;
+  padding: 1rem;
+  background-color: var(--gray);
+  transition: all 0.3s ease-in-out;
 }
 
-.redesSociais a {
-    margin-left: 1rem;
-    transition: all 0.3s ease-in-out;
+.courseList li:hover {
+  transform: scale(1.05);
 }
 
-.redesSociais a:hover {
-    transform: scale(1.1);
+.courseList h4 {
+  font-size: 1rem;
+  margin: 1rem 0 2rem 0;
+  font-weight: bold;
+  color: var(--blue);
 }
 
-.courses ul > li:hover {
-    transform: scale(1.05);
+.courseList a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: var(--black);
 }
 
-.courses h4 {
-    font-size: 1rem;
-    margin: 1rem 0 2rem 0;
-    font-weight: bold;
-    color: var(--blue);
-}
-
-.courses a {
-    text-decoration: none;
-    font-size: 1.25rem;
-    color: var(--black);
-}
-
-.courses a:hover {
-    border-bottom: 2px solid;
-    box-sizing: border-box;
-    color: var(--blue)
+.courseList a:hover {
+  border-bottom: 2px solid;
+  color: var(--blue);
 }
 
 .divider {
-    height: 2px;
-    width: 60%;
-    background: linear-gradient(90deg, var(--black), var(--blue));
-    display: inline-flex;
-    align-items: center;
-    vertical-align: middle;
-    margin-top: 3rem;
+  height: 2px;
+  width: 60%;
+  background: linear-gradient(90deg, var(--black), var(--blue));
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  margin-top: 3rem;
+}
+
+@media (max-width: 768px) {
+  .courseList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 1.5rem;
+    margin: 2rem;
+    padding: 0;
+  }
+
+  .courseList li {
+    width: 100%;
+    max-width: 160px;
+  }
+
+  .courses button {
+    margin: 2rem auto 0 auto;
+  }
+
+  .divider {
+    width: 80%;
+    margin: 2rem auto;
+  }
 }
