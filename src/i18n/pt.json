@@ -1,0 +1,26 @@
+{
+    "menu": {
+        "home": "Home",
+        "skills": "Habilidades",
+        "courses": "Cursos"
+    },
+    "cv": "Baixar CV",
+    "about": {
+        "button": "Sobre mim",
+        "name": "Gabriel de Oliveira Willms",
+        "description": "Desenvolvedor Full Stack com experiência em desenvolvimento de sistemas e especialização em desenvolvimento web. Ao longo da minha trajetória profissional, adquiri habilidades em linguagens e frameworks como Laravel, React.JS, Python, PHP e JavaScript, além de experiência prática com bancos de dados como MySQL e PostgreSQL."
+    },
+    "skills": {
+        "button": "Habilidades",
+        "title": "Tecnologias e Habilidades"
+    },
+    "courses": {
+        "button": "Cursos",
+        "rocketseat": "ReactJS",
+        "origamid_js": "Javascript",
+        "origamid_html_css": "HTML e CSS",
+        "udemy_linux": "Linux",
+        "udemy_git": "Git e Github",
+        "efset": "Certificado de Inglês"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "menu": {
+        "home": "Home",
+        "skills": "Skills",
+        "courses": "Courses"
+    },
+    "cv": "Download CV",
+    "about": {
+        "button": "About me",
+        "name": "Gabriel de Oliveira Willms",
+        "description": "Full Stack Developer with experience in system development and specialization in web development. Throughout my professional journey, I have acquired skills in languages and frameworks such as Laravel, React.JS, Python, PHP, and JavaScript, as well as hands-on experience with databases like MySQL and PostgreSQL."
+    },
+    "skills": {
+        "button": "Skills",
+        "title": "Technologies and Skills"
+    },
+    "courses": {
+        "button": "Courses",
+        "rocketseat": "ReactJS",
+        "origamid_js": "Javascript",
+        "origamid_html_css": "HTML and CSS",
+        "udemy_linux": "Linux",
+        "udemy_git": "Git and Github",
+        "efset": "English Certificate"
+    }
+}

@@ -1,30 +1,27 @@
 import styles from './About.module.css';
 import { Cookie } from 'phosphor-react';
-
 import fotoProfile from '../../assets/profile.png';
+import { useTranslation } from 'react-i18next';
 
 export function About() {
-    return (
-        <section className={ styles.about }>
-                <div>
-                    <img src= { fotoProfile } alt="Foto de Perfil"/>
-                    </div>
-                <div>
-                    <button>
-                        <Cookie size={32} color="#4831d4"/>
-                        <span>Sobre mim</span> 
-                    </button>
-                    <h1>Gabriel de Oliveira Willms</h1>
-                    <p>
+  const { t } = useTranslation();
 
-                    <br></br>
-                    <br></br>
-                    Desenvolvedor Full Stack com experiência em desenvolvimento de sistemas e especialização em
-                    desenvolvimento web. Ao longo da minha trajetória profissional, adquiri habilidades em linguagens e
-                    frameworks como Laravel, React.JS, Python, PHP e JavaScript, além de experiência prática com bancos de
-                    dados como MySQL e PostgreSQL.
-                    </p>
-                </div>
-        </section>
-    )
+  return (
+    <section className={styles.about}>
+      <div>
+        <img src={fotoProfile} alt="Foto de Perfil" />
+      </div>
+
+      <div>
+        <button>
+          <Cookie size={32} color="#4831d4" />
+          <span>{t('about.button')}</span>
+        </button>
+
+        <h1>{t('about.name')}</h1>
+
+        <p>{t('about.description')}</p>
+      </div>
+    </section>
+  );
 }
